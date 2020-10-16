@@ -12,6 +12,7 @@
     <artifactId>jdbctest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>com</name>
+    <packaging>war</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -70,10 +71,15 @@
             <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
             <version>3.0.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.62</version>
+        </dependency>
     </dependencies>
 
     <build>
+        <finalName>jdbctest</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

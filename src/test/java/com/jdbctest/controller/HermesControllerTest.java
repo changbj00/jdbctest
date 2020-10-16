@@ -15,6 +15,6 @@ class HermesControllerTest {
 
     @Test
     void gethermes() {
-        hermes.selecthermes("uid","100048","hermes_id");
+        //hermes.selecthermes("uid","100048","hermes_id");
     }
 }
